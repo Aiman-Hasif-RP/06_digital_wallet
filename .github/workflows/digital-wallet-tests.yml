@@ -2,6 +2,16 @@ name: Digital Wallet Tests
 
 on:
   push:
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - '.github/workflows/**'
+      - 'requirements*.txt'
+      - 'pytest.ini'
+      - 'pyproject.toml'
+      - 'setup.cfg'
+      - 'conftest.py'
+
   workflow_dispatch:
 
 permissions:
